@@ -4,6 +4,7 @@ The synchronization happens periodically, and all file operations are logged on 
 
 ## Deeping in the Code 
 Firstly, I implemented a parser to divide the string in arguments for the synchronization (folder paths,interval and the log file).
+
 For the synchronization, i implemented a function ```sync_folders```, that checked:
 - The replica directory exists, if not create a directory with that name;
 - Ensure the same files exists in the replica,if not copy the files from source to replica;
