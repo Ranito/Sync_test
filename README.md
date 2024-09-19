@@ -3,7 +3,7 @@ This script synchronizes the contents of a source folder with a replica folder, 
 The synchronization happens periodically, and all file operations are logged both in the console and in a specified log file.
 
 ## Deeping in the Code 
-Firstly, I implemented a parser to divide the string in arguments for the synchronization (folder paths,interval and the log file).
+First, I implemented a parser to handle the arguments for synchronization (folder paths, interval, and log file location).
 
 For the synchronization, i implemented a function ```sync_folders```, that checked:
 - The replica directory exists, if not create a directory with that name;
