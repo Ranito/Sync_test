@@ -12,8 +12,7 @@ For the synchronization, i implemented a function ```sync_folders```, that check
 - If the files are not identical, the replica file is updated;
 - If replica directory have extra files or directories compared to source directory, the content is removed.
 
-For the function ```files_are_identical```, i compared the two files size and the last modification times, if the files are still identical, the function does MD5 hash comparison.
-To print on the console and the selected log file, was used the ```setup_logging function```.
+For the ```files_are_identical function```, the comparison is made by checking file size and last modification time. If the files are still considered identical after this check, an MD5 hash comparison is performed to confirm they are the same.
 
 ## Code Execution
 
