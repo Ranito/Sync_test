@@ -31,5 +31,5 @@ def files_are_identical(source_file, replica_file):
     
     except Exception as e:
         
-        logging.error(f"Error on comparing files {source_file} and {replica_file}: {e}")
+        logging.error(f"Error on comparing {source_file} with {replica_file}: {e}")
         return False
