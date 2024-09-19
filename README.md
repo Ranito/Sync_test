@@ -14,7 +14,7 @@ For the synchronization, i implemented a function ```sync_folders```, that check
 
 For the ```files_are_identical function```, the comparison is made by checking file size and last modification time. If the files are still considered identical after this check, an MD5 hash comparison is performed to confirm they are the same.
 
-The logging is handled by ```the setup_logging``` function, which outputs messages to both the console and the log file specified.
+The logging is handled by the ```setup_logging``` function, which outputs messages to both the console and the log file specified.
 
 ## Code Execution
 
