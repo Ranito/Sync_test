@@ -22,6 +22,6 @@ The python version is 3.12.5.
 To run the code type these command:
 
 ```bash
-python main.py ./Source_Folder ./Replica_Folder 30 ./Log_File.log
+python main.py ./Source ./Replica 30 ./Log_File
 ```
-The ./Source_Folder and ./Replica_Folder are the folder paths; 30 is the time interval between synchronizations in seconds, and ./Log_File is log file path, where the name can be changed.
+The ./Source and ./Replica are the folder paths; 30 is the time interval between synchronizations in seconds, and ./Log_File is log file path, where the name can be changed.
