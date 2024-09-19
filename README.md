@@ -16,7 +16,8 @@ To print on the console and the selected log file, was used the ```setup_logging
 
 ## Code Execution
 
-The python version is 3.12.5
+The python version is 3.12.5.
+
 To run the code type these command:
 
 ```bash
